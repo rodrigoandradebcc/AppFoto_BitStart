@@ -12,8 +12,22 @@
     tools:context="br.com.rodandrade.devin6.appfoto_bitstart.TelaInicial"
     tools:showIn="@layout/activity_tela_inicial">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="300px"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:id="@+id/btnTirarFoto"
+        android:src="@drawable/camera"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/foto"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
